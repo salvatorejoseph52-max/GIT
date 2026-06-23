@@ -1,0 +1,27 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+    background: linear-gradient(135deg, #1e3c72, #2a5298);
+    color: white;
+    font-family: Arial, sans-serif;
+    height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Heading Styling */
+h1 {
+    background-color: rgba(255, 255, 255, 0.15);
+    padding: 20px 40px;
+    border-radius: 10px;
+    font-size: 3rem;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+}
